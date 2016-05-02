@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-paazmaya",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
     "eslint",
     "shared",
     "configuration"
-  ]
+  ],
+  "dependencies": {
+    "babel-eslint": "^6.0.4"
+  }
 }
