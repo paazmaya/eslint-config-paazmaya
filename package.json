@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-paazmaya",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: how to test self against own rules?\" && exit 1"
+    "test": "eslint -c index.js index.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "shared",
     "configuration"
   ],
-  "dependencies": {
-    "babel-eslint": "^6.0.4"
+  "devDependencies": {
+    "eslint": "^2.9.0"
   }
 }

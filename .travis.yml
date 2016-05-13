@@ -1,0 +1,16 @@
+sudo: required
+dist: trusty
+
+# Those two above are for getting most recent Ubuntu at Travis
+# https://docs.travis-ci.com/user/ci-environment/
+
+language: node_js
+node_js:
+  - "4.2"
+  - "6"
+cache:
+  directories:
+    - node_modules
+matrix:
+  fast_finish: true
+after_success: "npm run coverage"
