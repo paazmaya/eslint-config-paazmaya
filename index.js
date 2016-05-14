@@ -16,7 +16,10 @@ module.exports = {
     'brace-style': [2, 'stroustrup'],
     'camelcase': 0,
     'comma-dangle': 2,
-    'comma-spacing': [2, {'before': false, 'after': true}],
+    'comma-spacing': [2, {
+      'before': false,
+      'after': true
+    }],
     'comma-style': [2, 'last'],
     'complexity': [1, 12],
     'computed-property-spacing': [2, 'never'],
@@ -125,6 +128,7 @@ module.exports = {
     'no-warning-comments': 2,
     'no-with': 2,
     'object-curly-spacing': [2, 'never'],
+    'object-property-newline': 2,
     'one-var': 0,
     'operator-assignment': [2, 'always'],
     'prefer-const': 2,
@@ -132,7 +136,10 @@ module.exports = {
     'quotes': [2, 'single'],
     'radix': 2,
     'semi': 2,
-    'semi-spacing': [2, {'before': false, 'after': true}],
+    'semi-spacing': [2, {
+      'before': false,
+      'after': true
+    }],
     'sort-vars': 0,
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,

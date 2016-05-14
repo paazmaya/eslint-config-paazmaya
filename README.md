@@ -24,6 +24,9 @@ For further details see [ESLint documentation for Shareable Configs](http://esli
 
 ## Version history
 
+* `v2.1.0` (2016-05-14)
+    - [ESLint 2.10.0 was released](http://eslint.org/blog/2016/05/eslint-v2.10.0-released) and its new rule taken in use
+    - Marked ESLint as a peer dependency
 * `v2.0.0` (2016-05-13)
     - Removed `babel-eslint` parser since most of the projects needs to run directly on Node.js `v4.2.0` (LTS)
     - Start testing against itself and automate via Travis CI
