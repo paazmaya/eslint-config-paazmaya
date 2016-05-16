@@ -125,7 +125,10 @@ module.exports = {
     'no-unused-vars': [2, 'local'],
     'no-use-before-define': 1,
     'no-void': 2,
-    'no-warning-comments': 2,
+
+    // Sometimes need to have FIXME or TODO
+    'no-warning-comments': 1,
+
     'no-with': 2,
     'object-curly-spacing': [2, 'never'],
     'object-property-newline': 2,
