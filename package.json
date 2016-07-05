@@ -22,9 +22,9 @@
     "configuration"
   ],
   "peerDependencies": {
-    "eslint": "^2.11.1"
+    "eslint": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^2.11.1"
+    "eslint": "^3.0.0"
   }
 }
