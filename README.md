@@ -22,8 +22,20 @@ Change the `.eslintrc.json` to contain the configuration for the shared configur
 
 For further details see [ESLint documentation for Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs).
 
+For example when [`babel-eslint` parser](https://github.com/babel/babel-eslint) would be needed:
+
+```json
+{
+  "extends": "paazmaya",
+  "parser": "babel-eslint"
+}
+```
+
 ## Version history
 
+* `v2.2.0` (2016-07-05)
+    - Updated to include rules introduced since 2.10, but before 3.0
+    - Update ESLint peer dependency to be at least `v2.12.0` and less that `v4.0.0`
 * `v2.1.0` (2016-05-14)
     - [ESLint 2.10.0 was released](http://eslint.org/blog/2016/05/eslint-v2.10.0-released) and its new rule taken in use
     - Marked ESLint as a peer dependency

@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-paazmaya",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js index.js"
+    "test": "eslint -c .eslintrc.json index.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,16 @@
     "shared",
     "configuration"
   ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": ">=2.12.0 <4.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "~3.0.0"
   }
 }
