@@ -19,10 +19,7 @@ module.exports = {
       'skipComments': true
     }],
     'object-curly-newline': ['error', {
-      'ObjectExpression': 'always',
-      'ObjectPattern': {
-        'multiline': true
-      }
+      'minProperties': 1
     }],
 
     // 2.11
@@ -45,7 +42,7 @@ module.exports = {
       'after': true
     }],
     'comma-style': ['error', 'last'],
-    'complexity': [1, 12],
+    'complexity': ['warn', 12],
     'computed-property-spacing': ['error', 'never'],
     'consistent-return': 'error',
     'consistent-this': ['error', '_self'],
@@ -163,7 +160,7 @@ module.exports = {
     'one-var': 'off',
     'operator-assignment': ['error', 'always'],
     'prefer-const': 'error',
-    'quote-props': [1, 'as-needed'],
+    'quote-props': ['warn', 'as-needed'],
     'quotes': ['error', 'single'],
     'radix': 'error',
     'semi': 'error',
@@ -175,7 +172,7 @@ module.exports = {
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'space-unary-ops': 'warn',
-    'spaced-comment': [0, 'always'],
+    'spaced-comment': ['off', 'always'],
     'strict': 'off',
     'use-isnan': 'error',
     'valid-jsdoc': 'warn',
