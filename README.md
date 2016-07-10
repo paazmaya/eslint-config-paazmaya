@@ -33,6 +33,8 @@ For example when [`babel-eslint` parser](https://github.com/babel/babel-eslint) 
 
 ## Version history
 
+* `v2.3.0` (2016-07-10)
+    - Had to change `object-curly-newline` configuration to allow more variation
 * `v2.2.0` (2016-07-05)
     - Updated to include rules introduced since 2.10, but before 3.0
     - Update ESLint peer dependency to be at least `v2.12.0` and less that `v4.0.0`
