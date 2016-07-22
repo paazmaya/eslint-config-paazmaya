@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-paazmaya",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "scripts": {
@@ -27,9 +27,6 @@
     "package.json",
     "README.md"
   ],
-  "peerDependencies": {
-    "eslint": ">=2.12.0 <4.0.0"
-  },
   "devDependencies": {
     "eslint": "~3.0.1"
   }
