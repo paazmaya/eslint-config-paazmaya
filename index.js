@@ -12,8 +12,22 @@
 module.exports = {
   'rules': {
 
+    // 3.3.0
+    // sort-keys
+    // no-template-curly-in-string
+    // no-native-reassign -->	`no-global-assign’
+    // no-negated-in-lhs -->	`no-unsafe-negation’
+    // no-spaced-func -->	`func-call-spacing’
+
+
+    // 3.2.0
+    // no-tabs
+
+    // 3.1.0
+    // multiline-ternary
+
     // 2.12
-    'max-lines': ['error', {
+    'max-lines': ['warn', {
       'max': 200,
       'skipBlankLines': true,
       'skipComments': true

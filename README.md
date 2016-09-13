@@ -33,23 +33,25 @@ For example when [`babel-eslint` parser](https://github.com/babel/babel-eslint) 
 
 ## Version history
 
+* `v3.0.0` (2016-09)
+  - Adding rules in use that are available in ESLint `v3.4.0`, hence that is the minimum supported version
 * `v2.3.1` (2016-07-22)
-    - Removed ESLint from being a peer dependency as it prevents using with `grunt-eslint` or similar
+  - Removed ESLint from being a peer dependency as it prevents using with `grunt-eslint` or similar
 * `v2.3.0` (2016-07-10)
-    - Had to change `object-curly-newline` configuration to allow more variation
+  - Had to change `object-curly-newline` configuration to allow more variation
 * `v2.2.0` (2016-07-05)
-    - Updated to include rules introduced since 2.10, but before 3.0
-    - Update ESLint peer dependency to be at least `v2.12.0` and less that `v4.0.0`
+  - Updated to include rules introduced since 2.10, but before 3.0
+  - Update ESLint peer dependency to be at least `v2.12.0` and less that `v4.0.0`
 * `v2.1.0` (2016-05-14)
-    - [ESLint 2.10.0 was released](http://eslint.org/blog/2016/05/eslint-v2.10.0-released) and its new rule taken in use
-    - Marked ESLint as a peer dependency
+  - [ESLint 2.10.0 was released](http://eslint.org/blog/2016/05/eslint-v2.10.0-released) and its new rule taken in use
+  - Marked ESLint as a peer dependency
 * `v2.0.0` (2016-05-13)
-    - Removed `babel-eslint` parser since most of the projects needs to run directly on Node.js `v4.2.0` (LTS)
-    - Start testing against itself and automate via Travis CI
+  - Removed `babel-eslint` parser since most of the projects needs to run directly on Node.js `v4.2.0` (LTS)
+  - Start testing against itself and automate via Travis CI
 * `v1.0.1` (2016-05-02)
-    - [`babel-eslint`](https://github.com/babel/babel-eslint) was marked as parser but was not a dependency
+  - [`babel-eslint`](https://github.com/babel/babel-eslint) was marked as parser but was not a dependency
 * `v1.0.0` (2016-05-02)
-    - Initial rule set taken from [`tarita`](https://github.com/paazmaya/tarita)
+  - Initial rule set taken from [`tarita`](https://github.com/paazmaya/tarita)
 
 ## License
 
