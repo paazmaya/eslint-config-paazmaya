@@ -7,24 +7,32 @@
  * Copyright (c) Juga Paazmaya <paazmaya@yahoo.com> (https://paazmaya.fi)
  * Licensed under the MIT license
  */
+
 'use strict';
 
 module.exports = {
   'rules': {
 
-    // 3.3.0
-    // sort-keys
-    // no-template-curly-in-string
-    // no-native-reassign -->	`no-global-assign’
-    // no-negated-in-lhs -->	`no-unsafe-negation’
-    // no-spaced-func -->	`func-call-spacing’
 
+    // 3.5.0
+    'prefer-numeric-literals': 'error',
+    'no-restricted-properties': 'off',
+    'line-comment-position': 'off',
+    'lines-around-directive': ['error', 'always'],
+
+    // 3.4.0
+    'symbol-description': 'off',
+    'class-methods-use-this': 'warn',
+
+    // 3.3.0
+    'sort-keys': 'off',
+    'no-template-curly-in-string': 'warn',
 
     // 3.2.0
-    // no-tabs
+    'no-tabs': 'error',
 
     // 3.1.0
-    // multiline-ternary
+    'multiline-ternary': ['error', 'always'],
 
     // 2.12
     'max-lines': ['warn', {
@@ -121,8 +129,8 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-multiple-empty-lines': 'error',
-    'no-native-reassign': 'error',
-    'no-negated-in-lhs': 'error',
+    'no-global-assign': 'error',
+    'no-unsafe-negation': 'error',
     'no-nested-ternary': 'warn',
     'no-new': 'error',
     'no-new-func': 'error',
@@ -146,7 +154,7 @@ module.exports = {
     'no-sequences': 'error',
     'no-shadow': 'warn',
     'no-shadow-restricted-names': 'error',
-    'no-spaced-func': 'warn',
+    'func-call-spacing': 'warn',
     'no-sparse-arrays': 'error',
     'no-sync': 'off',
     'no-ternary': 'off',

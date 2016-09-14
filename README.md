@@ -31,10 +31,19 @@ For example when [`babel-eslint` parser](https://github.com/babel/babel-eslint) 
 }
 ```
 
+## Contributing
+
+["A Beginner's Guide to Open Source: The Best Advice for Making your First Contribution"](http://hf.heidilabs.com/blog/a-beginners-guide-to-open-source-making-your-first-contribution)
+
+[Also there is a blog post about "45 Github Issues Dos and Don’ts"](https://davidwalsh.name/45-github-issues-dos-donts).
+
+Linting is done with [ESLint](http://eslint.org) and can be executed with `npm test`.
+There should be no errors appearing after any JavaScript file changes.
+
 ## Version history
 
-* `v3.0.0` (2016-09)
-  - Adding rules in use that are available in ESLint `v3.4.0`, hence that is the minimum supported version
+* `v3.0.0` (2016-09-14)
+  - Adding rules in use that are available in and up to [ESLint `v3.5.0`](http://eslint.org/blog/2016/09/eslint-v3.5.0-released), hence that is the minimum supported version
 * `v2.3.1` (2016-07-22)
   - Removed ESLint from being a peer dependency as it prevents using with `grunt-eslint` or similar
 * `v2.3.0` (2016-07-10)
