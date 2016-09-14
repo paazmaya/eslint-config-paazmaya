@@ -14,24 +14,24 @@ module.exports = {
   'rules': {
 
 
-    // 3.5.0
+    // 3.5
     'prefer-numeric-literals': 'error',
     'no-restricted-properties': 'off',
     'line-comment-position': 'off',
     'lines-around-directive': ['error', 'always'],
 
-    // 3.4.0
+    // 3.4
     'symbol-description': 'off',
     'class-methods-use-this': 'warn',
 
-    // 3.3.0
+    // 3.3
     'sort-keys': 'off',
     'no-template-curly-in-string': 'warn',
 
-    // 3.2.0
+    // 3.2
     'no-tabs': 'error',
 
-    // 3.1.0
+    // 3.1
     'multiline-ternary': ['error', 'always'],
 
     // 2.12
@@ -52,6 +52,20 @@ module.exports = {
     }],
     'unicode-bom': ['error', 'never'],
     'no-prototype-builtins': 'error',
+
+    // 2.10
+    'object-property-newline': 'error',
+
+    // 2.9
+    'no-unsafe-finally': 'error',
+    'no-useless-computed-key': 'error',
+
+    // 2.5
+    'no-useless-escape': 'error',
+    'max-statements-per-line': ['error', {
+      'max': 1
+    }],
+    'no-duplicate-imports': 'error',
 
 
     'array-bracket-spacing': 'error',
@@ -178,7 +192,6 @@ module.exports = {
 
     'no-with': 'error',
     'object-curly-spacing': ['error', 'never'],
-    'object-property-newline': 'error',
     'one-var': 'off',
     'operator-assignment': ['error', 'always'],
     'prefer-const': 'error',
