@@ -67,6 +67,10 @@ module.exports = {
     }],
     'no-duplicate-imports': 'error',
 
+    // 2.3
+    'newline-before-return': 'error',
+    'no-restricted-globals': 'off',
+
 
     'array-bracket-spacing': 'error',
     'block-scoped-var': 'off',
