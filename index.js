@@ -13,6 +13,11 @@
 module.exports = {
   'rules': {
 
+    // 3.8
+
+    // 3.7, no new rules
+
+    // 3.6, no new rules
 
     // 3.5
     'prefer-numeric-literals': 'error',
