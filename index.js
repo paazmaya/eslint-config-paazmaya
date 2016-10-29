@@ -13,7 +13,11 @@
 module.exports = {
   'rules': {
 
+    // 3.9
+    'no-useless-return': 'error',
+
     // 3.8
+    'func-name-matching': 'warn',
 
     // 3.7, no new rules
 
