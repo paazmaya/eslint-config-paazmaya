@@ -13,6 +13,9 @@
 module.exports = {
   'rules': {
 
+    // 3.10
+    'no-return-await': 'error',
+
     // 3.9
     'no-useless-return': 'error',
 
