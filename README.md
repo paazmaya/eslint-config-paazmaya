@@ -6,10 +6,10 @@
 
 ## Usage
 
-Install via `npm`:
+Install via `npm`, along with [ESLint](http://eslint.org/):
 
 ```sh
-npm install --save-dev eslint-config-paazmaya
+npm install --save-dev eslint eslint-config-paazmaya
 ```
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:

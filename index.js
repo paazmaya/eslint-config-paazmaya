@@ -13,6 +13,24 @@
 module.exports = {
   'rules': {
 
+    // 3.14
+    'no-multi-assign': 'warn',
+    'prefer-promise-reject-errors': ['error', {
+      allowEmptyReject: true
+    }],
+
+    // 3.13
+    'prefer-destructuring': 'off', // Cannot really use until all project have minimum of 6.9.
+
+    // 3.12
+    'no-await-in-loop': 'error',
+
+    // 3.11
+    'capitalized-comments': ['warn', 'always', {
+      ignoreInlineComments: true
+    }],
+    'require-await': 'error',
+
     // 3.10
     'no-return-await': 'error',
 
