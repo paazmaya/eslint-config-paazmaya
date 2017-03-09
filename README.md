@@ -42,6 +42,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v3.2.0` (2017-03-09)
+  - Now there is ESLint `v3.17.1` already out. Added nine new rules
 * `v3.1.0` (2016-11-12)
   - Now there is ESLint `v3.10.2` already out. Updated all rules since previous release, namely three new rules
 * `v3.0.0` (2016-09-14)

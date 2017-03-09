@@ -13,6 +13,15 @@
 module.exports = {
   'rules': {
 
+    // 3.17
+    'no-compare-neg-zero': 'error',
+    'nonblock-statement-body-position': 'off', // Already using curly: error.
+
+    // 3.16, no new rules
+
+    // 3.15
+    'template-tag-spacing': ['error', 'never'],
+
     // 3.14
     'no-multi-assign': 'warn',
     'prefer-promise-reject-errors': ['error', {
