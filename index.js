@@ -13,6 +13,10 @@
 module.exports = {
   'rules': {
 
+    // 3.19, no new rules
+
+    // 3.18, no new rules
+
     // 3.17
     'no-compare-neg-zero': 'error',
     'nonblock-statement-body-position': 'off', // Already using curly: error.

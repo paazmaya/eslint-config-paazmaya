@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/paazmaya/eslint-config-paazmaya.git"
   },
-  "author": "Juga Paazmaya <paazmaya@yahoo.com> (https://www.paazmaya.fi)",
+  "author": "Juga Paazmaya <paazmaya@yahoo.com> (https://paazmaya.fi)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/paazmaya/eslint-config-paazmaya/issues"
@@ -31,6 +31,6 @@
     "node": ">=6.9.5"
   },
   "devDependencies": {
-    "eslint": "~3.18.0"
+    "eslint": "~3.19.0"
   }
 }
