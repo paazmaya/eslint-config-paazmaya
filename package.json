@@ -4,7 +4,7 @@
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c .eslintrc.json index.js"
+    "test": "eslint index.js"
   },
   "repository": {
     "type": "git",
