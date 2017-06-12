@@ -6,11 +6,13 @@
 
 ## Usage
 
-Install via `npm`, along with [ESLint](http://eslint.org/):
+Install via `npm` command line tool, along with [ESLint](http://eslint.org/):
 
 ```sh
 npm install --save-dev eslint eslint-config-paazmaya
 ```
+
+Note that the minimum ESLint version supported is `4.0.0`.
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:
 
@@ -22,7 +24,7 @@ Change the `.eslintrc.json` to contain the configuration for the shared configur
 
 For further details see [ESLint documentation for Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs).
 
-For example when [`babel-eslint` parser](https://github.com/babel/babel-eslint) would be needed:
+For example, when [`babel-eslint` parser](https://github.com/babel/babel-eslint) would be needed:
 
 ```json
 {
@@ -42,6 +44,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v4.0.0` (2017-06-12)
+  - Paired with [ESLint `v4.0.0`](http://eslint.org/blog/2017/06/eslint-v4.0.0-released). Added its seven new rules
 * `v3.2.0` (2017-03-09)
   - Now there is ESLint `v3.17.1` already out. Added nine new rules
 * `v3.1.0` (2016-11-12)
@@ -54,7 +58,7 @@ There should be no errors appearing after any JavaScript file changes.
   - Had to change `object-curly-newline` configuration to allow more variation
 * `v2.2.0` (2016-07-05)
   - Updated to include rules introduced since 2.10, but before 3.0
-  - Update ESLint peer dependency to be at least `v2.12.0` and less that `v4.0.0`
+  - Update ESLint peer dependency to be at least `v2.12.0` and less than `v4.0.0`
 * `v2.1.0` (2016-05-14)
   - [ESLint 2.10.0 was released](http://eslint.org/blog/2016/05/eslint-v2.10.0-released) and its new rule taken in use
   - Marked ESLint as a peer dependency

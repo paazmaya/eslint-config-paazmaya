@@ -11,7 +11,36 @@
 'use strict';
 
 module.exports = {
-  'rules': {
+  rules: {
+    // 4.0
+    'array-element-newline': 'off',
+    'semi-style': ['error', 'last'],
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: 'directive',
+        next: '*'
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return'
+      }
+    ],
+    'for-direction': 'error',
+    'switch-colon-spacing': [
+      'error', {
+        after: true,
+        before: false
+      }
+    ],
+    'array-bracket-newline': [
+      'error', {
+        multiline: true
+      }
+    ],
+    'no-buffer-constructor': 'error',
 
     // 3.19, no new rules
 
@@ -28,9 +57,11 @@ module.exports = {
 
     // 3.14
     'no-multi-assign': 'warn',
-    'prefer-promise-reject-errors': ['error', {
-      allowEmptyReject: true
-    }],
+    'prefer-promise-reject-errors': [
+      'error', {
+        allowEmptyReject: true
+      }
+    ],
 
     // 3.13
     'prefer-destructuring': 'off', // Cannot really use until all project have minimum of 6.9.
@@ -39,9 +70,11 @@ module.exports = {
     'no-await-in-loop': 'error',
 
     // 3.11
-    'capitalized-comments': ['warn', 'always', {
-      ignoreInlineComments: true
-    }],
+    'capitalized-comments': [
+      'warn', 'always', {
+        ignoreInlineComments: true
+      }
+    ],
     'require-await': 'error',
 
     // 3.10
@@ -61,7 +94,6 @@ module.exports = {
     'prefer-numeric-literals': 'error',
     'no-restricted-properties': 'off',
     'line-comment-position': 'off',
-    'lines-around-directive': ['error', 'always'],
 
     // 3.4
     'symbol-description': 'off',
@@ -78,21 +110,27 @@ module.exports = {
     'multiline-ternary': ['error', 'always'],
 
     // 2.12
-    'max-lines': ['warn', {
-      'max': 200,
-      'skipBlankLines': true,
-      'skipComments': true
-    }],
-    'object-curly-newline': ['error', {
-      'minProperties': 1
-    }],
+    'max-lines': [
+      'warn', {
+        max: 200,
+        skipBlankLines: true,
+        skipComments: true
+      }
+    ],
+    'object-curly-newline': [
+      'error', {
+        minProperties: 1
+      }
+    ],
 
     // 2.11
-    'no-useless-rename': ['error', {
-      'ignoreDestructuring': false,
-      'ignoreImport': false,
-      'ignoreExport': false
-    }],
+    'no-useless-rename': [
+      'error', {
+        ignoreDestructuring: false,
+        ignoreImport: false,
+        ignoreExport: false
+      }
+    ],
     'unicode-bom': ['error', 'never'],
     'no-prototype-builtins': 'error',
 
@@ -105,40 +143,43 @@ module.exports = {
 
     // 2.5
     'no-useless-escape': 'error',
-    'max-statements-per-line': ['error', {
-      'max': 1
-    }],
+    'max-statements-per-line': [
+      'error', {
+        max: 1
+      }
+    ],
     'no-duplicate-imports': 'error',
 
     // 2.3
-    'newline-before-return': 'error',
     'no-restricted-globals': 'off',
 
 
     'array-bracket-spacing': 'error',
     'block-scoped-var': 'off',
     'brace-style': ['error', 'stroustrup'],
-    'camelcase': 'off',
+    camelcase: 'off',
     'comma-dangle': 'error',
-    'comma-spacing': ['error', {
-      'before': false,
-      'after': true
-    }],
+    'comma-spacing': [
+      'error', {
+        before: false,
+        after: true
+      }
+    ],
     'comma-style': ['error', 'last'],
-    'complexity': ['warn', 12],
+    complexity: ['warn', 12],
     'computed-property-spacing': ['error', 'never'],
     'consistent-return': 'error',
     'consistent-this': ['error', '_self'],
-    'curly': 'error',
+    curly: 'error',
     'default-case': 'error',
     'dot-notation': 'warn',
     'eol-last': 'warn',
-    'eqeqeq': 'error',
+    eqeqeq: 'error',
     'func-names': 'warn',
     'func-style': ['error', 'expression'],
     'guard-for-in': 'warn',
     'handle-callback-err': 'error',
-    'indent': ['error', 2],
+    indent: ['error', 2],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
     'max-depth': [1, 4],
@@ -243,29 +284,31 @@ module.exports = {
     'operator-assignment': ['error', 'always'],
     'prefer-const': 'error',
     'quote-props': ['warn', 'as-needed'],
-    'quotes': ['error', 'single'],
-    'radix': 'error',
-    'semi': 'error',
-    'semi-spacing': ['error', {
-      'before': false,
-      'after': true
-    }],
+    quotes: ['error', 'single'],
+    radix: 'error',
+    semi: 'error',
+    'semi-spacing': [
+      'error', {
+        before: false,
+        after: true
+      }
+    ],
     'sort-vars': 'off',
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'space-unary-ops': 'warn',
     'spaced-comment': ['off', 'always'],
-    'strict': 'off',
+    strict: 'off',
     'use-isnan': 'error',
     'valid-jsdoc': 'warn',
     'valid-typeof': 'error',
     'vars-on-top': 'off',
     'wrap-iife': ['error', 'inside'],
     'wrap-regex': 'off',
-    'yoda': ['error', 'never']
+    yoda: ['error', 'never']
   },
-  'env': {
-    'node': true,
-    'es6': true
+  env: {
+    node: true,
+    es6: true
   }
 };
