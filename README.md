@@ -44,6 +44,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v4.1.0` (2017-08)
+  - Get new rules up to ESLint `v4.2.0`, total of one new rules
 * `v4.0.0` (2017-06-12)
   - Paired with [ESLint `v4.0.0`](http://eslint.org/blog/2017/06/eslint-v4.0.0-released). Added its seven new rules
 * `v3.2.0` (2017-03-09)

@@ -12,6 +12,11 @@
 
 module.exports = {
   rules: {
+    // 4.2
+    'getter-return': 'error',
+
+    // 4.1, no new rules
+
     // 4.0
     'array-element-newline': 'off',
     'semi-style': ['error', 'last'],

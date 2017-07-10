@@ -1,3 +1,7 @@
 {
-  "extends": "./index.js"
+  "extends": "./index.js",
+  "rules": {
+    "capitalized-comments": "off",
+    "max-lines": "off"
+  }
 }
