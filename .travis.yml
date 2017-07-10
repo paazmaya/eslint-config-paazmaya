@@ -1,4 +1,4 @@
-sudo: required
+sudo: false
 dist: trusty
 
 # Those two above are for getting most recent Ubuntu at Travis
