@@ -75,11 +75,7 @@ module.exports = {
     'no-await-in-loop': 'error',
 
     // 3.11
-    'capitalized-comments': [
-      'warn', 'always', {
-        ignoreInlineComments: true
-      }
-    ],
+    'capitalized-comments': 'off',
     'require-await': 'error',
 
     // 3.10
