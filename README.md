@@ -44,7 +44,7 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
-* `v4.1.0` (2017-08)
+* `v4.1.0` (2017-07-10)
   - Get new rules up to ESLint `v4.2.0`, total of one new rules
   - Changed `capitalized-comments` to `off` as it is violated often on purpose
 * `v4.0.0` (2017-06-12)
