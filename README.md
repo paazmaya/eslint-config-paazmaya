@@ -12,7 +12,9 @@ Install via `npm` command line tool, along with [ESLint](http://eslint.org/):
 npm install --save-dev eslint eslint-config-paazmaya
 ```
 
-Note that the minimum ESLint version supported is `4.0.0`.
+Note that the minimum ESLint version supported is `4.2.0`.
+
+
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:
 
