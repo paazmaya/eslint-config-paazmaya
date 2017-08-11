@@ -12,6 +12,11 @@
 
 module.exports = {
   rules: {
+
+    // 4.4, no new rules
+
+    // 4.3, no new rules
+
     // 4.2
     'getter-return': 'error',
 
