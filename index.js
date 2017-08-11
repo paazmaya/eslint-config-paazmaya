@@ -46,7 +46,7 @@ module.exports = {
       }
     ],
     'array-bracket-newline': [
-      'error', {
+      'warn', {
         multiline: true
       }
     ],
