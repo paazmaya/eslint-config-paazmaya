@@ -3,6 +3,7 @@
 > Shared ESLint configuration between my projects since it is possible
 
 [![Build Status](https://travis-ci.org/paazmaya/eslint-config-paazmaya.svg?branch=master)](https://travis-ci.org/paazmaya/eslint-config-paazmaya)
+[![Dependency Status](https://gemnasium.com/badges/github.com/paazmaya/eslint-config-paazmaya.svg)](https://gemnasium.com/github.com/paazmaya/eslint-config-paazmaya)
 
 ## Usage
 
@@ -13,8 +14,6 @@ npm install --save-dev eslint eslint-config-paazmaya
 ```
 
 Note that the minimum ESLint version supported is `4.2.0`.
-
-
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:
 

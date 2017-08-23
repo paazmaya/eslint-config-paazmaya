@@ -13,6 +13,8 @@
 module.exports = {
   rules: {
 
+    // 4.5, no new rules
+
     // 4.4, no new rules
 
     // 4.3, no new rules
