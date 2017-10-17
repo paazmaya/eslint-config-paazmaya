@@ -13,6 +13,21 @@
 module.exports = {
   rules: {
 
+    // 4.9
+    'multiline-comment-style': 'off',
+    'lines-between-class-members': [
+      'error', 'always', {
+        exceptAfterSingleLine: true
+      }
+    ],
+
+    // 4.8, no new rules
+
+    // 4.7, no new rules
+
+    // 4.6
+    'function-paren-newline': 'off',
+
     // 4.5, no new rules
 
     // 4.4, no new rules
