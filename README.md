@@ -45,6 +45,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v4.3.0` (2017-12-11)
+  - Get new rules up to ESLint `v4.13.0`, total of one new rule
 * `v4.2.0` (2017-10-17)
   - Get new rules up to ESLint `v4.9.0`, total of three new rules
 * `v4.1.0` (2017-07-10)

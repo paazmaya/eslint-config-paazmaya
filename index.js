@@ -13,6 +13,15 @@
 module.exports = {
   rules: {
 
+    // 4.13, no new rules
+
+    // 4.12
+    'implicit-arrow-linebreak': 'off',
+
+    // 4.11, no new rules
+
+    // 4.10, no new rules
+
     // 4.9
     'multiline-comment-style': 'off',
     'lines-between-class-members': [
