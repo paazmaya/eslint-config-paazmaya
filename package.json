@@ -31,6 +31,6 @@
     "node": ">=6.9.5"
   },
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "eslint": "^4.19.0"
   }
 }
