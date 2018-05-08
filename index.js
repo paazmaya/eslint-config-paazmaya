@@ -13,13 +13,18 @@
 module.exports = {
   rules: {
 
+    // 4.19, no new rules
+    // 4.18, no new rules
+    // 4.17, no new rules
+    // 4.16, no new rules
+    // 4.15, no new rules
+    // 4.14, no new rules
     // 4.13, no new rules
 
     // 4.12
     'implicit-arrow-linebreak': 'off',
 
     // 4.11, no new rules
-
     // 4.10, no new rules
 
     // 4.9
@@ -31,16 +36,13 @@ module.exports = {
     ],
 
     // 4.8, no new rules
-
     // 4.7, no new rules
 
     // 4.6
     'function-paren-newline': 'off',
 
     // 4.5, no new rules
-
     // 4.4, no new rules
-
     // 4.3, no new rules
 
     // 4.2
@@ -119,7 +121,6 @@ module.exports = {
     'func-name-matching': 'warn',
 
     // 3.7, no new rules
-
     // 3.6, no new rules
 
     // 3.5
