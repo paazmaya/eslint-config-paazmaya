@@ -13,6 +13,18 @@
 module.exports = {
   rules: {
 
+    // 5.1, no new rules
+
+    // 5.0
+    'prefer-object-spread': 'off',
+    'max-classes-per-file': ['error', 1],
+    'max-lines-per-function': [
+      'warn', { // TODO: change to error once tested
+        'max': 20,
+        'skipBlankLines': true
+      }
+    ],
+
     // 4.19, no new rules
     // 4.18, no new rules
     // 4.17, no new rules
@@ -226,7 +238,6 @@ module.exports = {
     'no-array-constructor': 'error',
     'no-bitwise': 'off',
     'no-caller': 'error',
-    'no-catch-shadow': 'error',
     'no-cond-assign': 'error',
     'no-console': 'off',
     'no-constant-condition': 'error',
@@ -287,7 +298,7 @@ module.exports = {
     'no-script-url': 'error',
     'no-self-compare': 'off',
     'no-sequences': 'error',
-    'no-shadow': 'warn',
+    'no-shadow': 'error',
     'no-shadow-restricted-names': 'error',
     'func-call-spacing': 'warn',
     'no-sparse-arrays': 'error',
