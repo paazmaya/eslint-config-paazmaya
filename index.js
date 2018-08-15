@@ -13,6 +13,13 @@
 module.exports = {
   rules: {
 
+    // 5.3
+    'no-misleading-character-class': 'warn',
+    'require-atomic-updates': 'error',
+    'no-async-promise-executor': 'error',
+    'require-unicode-regexp': 'error',
+
+    // 5.2, no new rules
     // 5.1, no new rules
 
     // 5.0
@@ -20,8 +27,8 @@ module.exports = {
     'max-classes-per-file': ['error', 1],
     'max-lines-per-function': [
       'warn', { // TODO: change to error once tested
-        'max': 20,
-        'skipBlankLines': true
+        max: 20,
+        skipBlankLines: true
       }
     ],
 
