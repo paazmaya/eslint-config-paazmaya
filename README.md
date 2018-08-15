@@ -3,7 +3,7 @@
 > Shared ESLint configuration between my projects since it is possible
 
 [![Build Status](https://travis-ci.org/paazmaya/eslint-config-paazmaya.svg?branch=master)](https://travis-ci.org/paazmaya/eslint-config-paazmaya)
-[![Dependency Status](https://gemnasium.com/badges/github.com/paazmaya/eslint-config-paazmaya.svg)](https://gemnasium.com/github.com/paazmaya/eslint-config-paazmaya)
+[![devDependencies Status](https://david-dm.org/paazmaya/eslint-config-paazmaya/dev-status.svg)](https://david-dm.org/paazmaya/eslint-config-paazmaya?type=dev)
 
 ## Usage
 
