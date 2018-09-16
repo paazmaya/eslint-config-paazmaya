@@ -13,6 +13,10 @@
 module.exports = {
   rules: {
 
+    // 5.6, no new rules
+    // 5.5, no new rules
+    // 5.4, no new rules
+
     // 5.3
     'no-misleading-character-class': 'warn',
     'require-atomic-updates': 'error',
