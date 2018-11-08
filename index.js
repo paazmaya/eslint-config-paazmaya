@@ -13,6 +13,8 @@
 module.exports = {
   rules: {
 
+    // 5.8, no new rules
+    // 5.7, no new rules
     // 5.6, no new rules
     // 5.5, no new rules
     // 5.4, no new rules
@@ -210,6 +212,7 @@ module.exports = {
     'no-restricted-globals': 'off',
 
 
+    'arrow-parens': 'error',
     'array-bracket-spacing': 'error',
     'block-scoped-var': 'off',
     'brace-style': ['error', 'stroustrup'],
