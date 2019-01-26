@@ -13,6 +13,13 @@
 module.exports = {
   rules: {
 
+    // 5.12, no new rules
+
+    // 5.11
+    'no-useless-catch': 'warn',
+
+    // 5.10, no new rules
+    // 5.9, no new rules
     // 5.8, no new rules
     // 5.7, no new rules
     // 5.6, no new rules
@@ -358,7 +365,6 @@ module.exports = {
     'spaced-comment': ['off', 'always'],
     strict: 'off',
     'use-isnan': 'error',
-    'valid-jsdoc': 'warn',
     'valid-typeof': 'error',
     'vars-on-top': 'off',
     'wrap-iife': ['error', 'inside'],
