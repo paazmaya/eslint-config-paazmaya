@@ -13,6 +13,13 @@
 module.exports = {
   rules: {
 
+    // 5.16, no new rules
+
+    // 5.15
+    'prefer-named-capture-group': 'off', // Requires support for ECMAScript 2018
+
+    // 5.14, no new rules
+    // 5.13, no new rules
     // 5.12, no new rules
 
     // 5.11
@@ -134,7 +141,7 @@ module.exports = {
     ],
 
     // 3.13
-    'prefer-destructuring': 'off', // Cannot really use until all project have minimum of 6.9.
+    'prefer-destructuring': 'warn',
 
     // 3.12
     'no-await-in-loop': 'error',

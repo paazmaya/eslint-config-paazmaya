@@ -13,7 +13,7 @@ Install via `npm` command line tool, along with [ESLint](http://eslint.org/):
 npm install --save-dev eslint eslint-config-paazmaya
 ```
 
-Note that the minimum ESLint version supported is `5.11.0`, but the latest usually works best.
+Note that the minimum ESLint version supported is `5.15.0` due to the rule configuration, but the latest usually works best.
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:
 
@@ -45,6 +45,9 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v5.3.0` (2019-05-07)
+  - Get new rules up to ESLint `v5.16.0`, total of one new rule
+  - Changed [`prefer-destructuring`](https://eslint.org/docs/rules/prefer-destructuring) configuration from `off` to `warn`
 * `v5.2.0` (2019-01-26)
   - Remove `jsdoc` related rules, as per [deprecation in ESLint](https://eslint.org/blog/2018/11/jsdoc-end-of-life)
   - Get new rules up to ESLint `v5.12.0`, total of one new rule
