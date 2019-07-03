@@ -13,6 +13,8 @@
 module.exports = {
   rules: {
 
+    // 6.0, no new rules
+
     // 5.16, no new rules
 
     // 5.15
@@ -47,7 +49,7 @@ module.exports = {
     'max-classes-per-file': ['error', 1],
     'max-lines-per-function': [
       'warn', { // TODO: change to error once tested
-        max: 20,
+        max: 22,
         skipBlankLines: true
       }
     ],
