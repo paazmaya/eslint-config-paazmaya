@@ -12,9 +12,14 @@
 
 module.exports = {
   rules: {
+    // 6.3, no new rules
+
+    // 6.2
+    'function-call-argument-newline': 'off',
+
+    // 6.1, no new rules
 
     // 6.0, no new rules
-
     // 5.16, no new rules
 
     // 5.15
@@ -48,7 +53,7 @@ module.exports = {
     'prefer-object-spread': 'off',
     'max-classes-per-file': ['error', 1],
     'max-lines-per-function': [
-      'warn', { // TODO: change to error once tested
+      'warn', {
         max: 22,
         skipBlankLines: true
       }
@@ -383,5 +388,8 @@ module.exports = {
   env: {
     node: true,
     es6: true
-  }
+  },
+
+  // 6.3
+  reportUnusedDisableDirectives: true
 };

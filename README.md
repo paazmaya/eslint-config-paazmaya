@@ -13,7 +13,7 @@ Install via `npm` command line tool, along with [ESLint](http://eslint.org/):
 npm install --save-dev eslint eslint-config-paazmaya
 ```
 
-Note that the minimum ESLint version supported is `6.0.0` due to the rule configuration, but the latest usually works best.
+Note that the minimum ESLint version supported is `6.3.0` due to the rule configuration, but the latest usually works best.
 
 Change the `.eslintrc.json` to contain the configuration for the shared configuration:
 
@@ -58,6 +58,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v6.1.0` (2019-09-13)
+  - Get new rules up to ESLint `v6.3.0`, total of one new rule and one new configuration option
 * `v6.0.0` (2019-07-03)
   - ESLint [`v6.0.0` has been released](https://eslint.org/blog/2019/06/eslint-v6.0.0-released) and it is now the minimum version requirement
 * `v5.3.0` (2019-05-07)
