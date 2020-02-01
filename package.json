@@ -28,7 +28,7 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=8.11.1"
+    "node": ">=10.13.0"
   },
   "devDependencies": {
     "eslint": "^6.3.0"
