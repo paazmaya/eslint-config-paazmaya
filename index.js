@@ -12,13 +12,34 @@
 
 module.exports = {
   rules: {
+    // 7.0
+    'default-case-last': 'off',
+    'no-useless-backreference': 'off',
+    'no-restricted-exports': 'off',
+
+    // 6.8, no new rules
+
+    // 6.7
+    'grouped-accessor-pairs': 'error',
+    'no-constructor-return': 'error',
+    'no-dupe-else-if': 'error',
+    'no-setter-return': 'error',
+    'prefer-exponentiation-operator': 'warn',
+
+    // 6.6, no new rules
+    // 6.5, no new rules
+
+    // 6.4
+    'no-import-assign': 'error',
+    'prefer-regex-literals': 'warn',
+    'default-param-last': 'error',
+
     // 6.3, no new rules
 
     // 6.2
     'function-call-argument-newline': 'off',
 
     // 6.1, no new rules
-
     // 6.0, no new rules
     // 5.16, no new rules
 
