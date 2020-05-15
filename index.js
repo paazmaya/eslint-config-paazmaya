@@ -8,8 +8,6 @@
  * Licensed under the MIT license
  */
 
-
-
 module.exports = {
   rules: {
     // 7.0

@@ -58,7 +58,7 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
-* `v7.0.0` (2020-02-)
+* `v7.0.0` (2020-05-15)
   - Get new rules up to ESLint `v7.0.0`, total of 11 new rules
   - Dropped support for Node.js version 8, since ESLint did that too
 * `v6.1.0` (2019-09-13)
