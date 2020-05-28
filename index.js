@@ -10,6 +10,9 @@
 
 module.exports = {
   rules: {
+    // 7.1
+    'no-loss-of-precision': 'error',
+
     // 7.0
     'default-case-last': 'off',
     'no-useless-backreference': 'off',
