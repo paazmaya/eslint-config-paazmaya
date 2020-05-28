@@ -1,8 +1,5 @@
-sudo: false
-dist: trusty
-
-# Those two above are for getting most recent Ubuntu at Travis
-# https://docs.travis-ci.com/user/ci-environment/
+# https://docs.travis-ci.com/user/build-config-validation/
+version: ~> 1.0
 
 language: node_js
 node_js:
@@ -11,5 +8,5 @@ node_js:
 cache:
   directories:
     - node_modules
-matrix:
+jobs:
   fast_finish: true
