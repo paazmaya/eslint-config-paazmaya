@@ -10,6 +10,22 @@
 
 module.exports = {
   rules: {
+
+    // 7.11, , no new rules
+    // 7.10, , no new rules
+    // 7.9, , no new rules
+    // 7.8, Support for logical assignment operators and numeric separators, no new rules
+    // 7.7, no new rules
+    // 7.6, no new rules
+    // 7.5, Optional Chaining Support, no new rules
+    // 7.4, no new rules
+
+    // 7.3
+    'no-promise-executor-return': 'error',
+    'no-unreachable-loop': 'error',
+
+    // 7.2, ECMAScript 2020 syntax support, no new rules
+
     // 7.1
     'no-loss-of-precision': 'error',
 
