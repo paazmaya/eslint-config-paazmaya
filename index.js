@@ -11,9 +11,21 @@
 module.exports = {
   rules: {
 
-    // 7.11, , no new rules
-    // 7.10, , no new rules
-    // 7.9, , no new rules
+    // 7.18, no new rules
+    // 7.17, no new rules
+    // 7.16, no new rules
+
+    // 7.15
+    'no-unsafe-optional-chaining': 'warn',
+
+    // 7.14
+    'no-nonoctal-decimal-escape': 'error',
+
+    // 7.13, no new rules
+    // 7.12, no new rules
+    // 7.11, no new rules
+    // 7.10, no new rules
+    // 7.9, no new rules
     // 7.8, Support for logical assignment operators and numeric separators, no new rules
     // 7.7, no new rules
     // 7.6, no new rules

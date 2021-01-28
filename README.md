@@ -59,6 +59,8 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+* `v7.2.0` (2021-01-28)
+  - Get new rules up to ESLint `v7.18.0`, total of two new rules
 * `v7.1.0` (2020-10-16)
   - Get new rules up to ESLint `v7.11.0`, total of three new rules
   - Run tests also against Node.js version 14. Now versions 10, 12, and 14 of Node.js are covered at Travis CI
