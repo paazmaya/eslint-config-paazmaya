@@ -59,6 +59,7 @@ There should be no errors appearing after any JavaScript file changes.
 
 ## Version history
 
+  - Move testing with Node.js version 14 to GitHub Actions, away from Travis CI, since Travis has now stricter limitations on usage. Travis in now used to test only with Node.js version 10.
 * `v7.2.0` (2021-01-28)
   - Get new rules up to ESLint `v7.18.0`, total of two new rules
 * `v7.1.0` (2020-10-16)
