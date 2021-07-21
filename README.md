@@ -26,12 +26,15 @@ Change the `.eslintrc.json` to contain the configuration for the shared configur
 
 For further details see [ESLint documentation for Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs).
 
-For example, when [`babel-eslint` parser](https://github.com/babel/babel-eslint) would be needed:
+For example, when [`@babel/eslint-parser` parser](https://github.com/babel/babel) would be needed:
 
 ```json
 {
   "extends": "paazmaya",
-  "parser": "babel-eslint"
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "@babel"
+  ]
 }
 ```
 

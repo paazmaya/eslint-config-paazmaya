@@ -6,6 +6,7 @@ It follows the guidance from https://keepachangelog.com/en/1.0.0/.
 ## Unreleased
 - Move testing with Node.js version 14 to GitHub Actions, away from Travis CI, since Travis has now stricter limitations on usage. Travis in now used to test only with Node.js version 16.
 - Minimum supported Node.js version lifted from `10.13.0` to `14.15.0`
+- ESLint v8 https://eslint.org/blog/2021/06/whats-coming-in-eslint-8.0.0
 
 ## `v7.2.0` (2021-01-28)
 - Get new rules up to ESLint `v7.18.0`, total of two new rules
