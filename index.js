@@ -11,6 +11,20 @@
 module.exports = {
   rules: {
 
+    // 7.32, no new rules
+    // 7.31, no new rules
+    // 7.30, no new rules
+    // 7.29, no new rules
+    // 7.28, no new rules
+    // 7.27, no new rules
+    // 7.26, no new rules
+    // 7.25, no new rules
+    // 7.24, no new rules
+    // 7.23, no new rules
+    // 7.22, no new rules
+    // 7.21, no new rules
+    // 7.20, no new rules
+    // 7.19, no new rules
     // 7.18, no new rules
     // 7.17, no new rules
     // 7.16, no new rules
