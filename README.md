@@ -3,7 +3,6 @@
 > Shared ESLint configuration between my projects since it is possible
 
 [![Build Status](https://app.travis-ci.com/paazmaya/eslint-config-paazmaya.svg?branch=master)](https://app.travis-ci.com/paazmaya/eslint-config-paazmaya)
-[![devDependencies Status](https://david-dm.org/paazmaya/eslint-config-paazmaya/dev-status.svg)](https://david-dm.org/paazmaya/eslint-config-paazmaya?type=dev)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=paazmaya_eslint-config-paazmaya&metric=code_smells)](https://sonarcloud.io/dashboard?id=paazmaya_eslint-config-paazmaya)
 
 ## Usage
