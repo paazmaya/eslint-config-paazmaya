@@ -3,6 +3,12 @@
 This changelog covers the version history and possible upcoming changes.
 It follows the guidance from https://keepachangelog.com/en/1.0.0/.
 
+## `v9.0.0` (2022-11-20)
+
+- It had been stated in `v8.0.0` that it would had been the last release. Now I wanted to make this new release to be able to use the new flat ESLint config everywhere, before possible migration away from my own config
+- Compatibility with the new flat ESLint configuration, see https://eslint.org/blog/2022/08/new-config-system-part-2/
+- Minimum supported Node.js version lifted from `14.15.0` to `18.12.0`
+
 ## `v8.0.0` (2022-04-19)
 
 - **This shall be the last version of this package**, use other more widely available configurations

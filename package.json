@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-paazmaya",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "Shared ESLint configuration between my projects since it is possible",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=18.12.0"
   },
   "devDependencies": {
     "eslint": "8.28.0"

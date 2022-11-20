@@ -7,6 +7,7 @@
  * Copyright (c) Juga Paazmaya <paazmaya@yahoo.com> (https://paazmaya.fi)
  * Licensed under the MIT license
  */
+import globals from 'globals';
 
 export default {
   rules: {
@@ -449,11 +450,12 @@ export default {
     'wrap-regex': 'off',
     yoda: ['error', 'never']
   },
-  env: {
-    node: true,
-    es6: true
-  },
 
-  // 6.3
-  reportUnusedDisableDirectives: true
+  languageOptions: {
+    globals: {
+      ...globals.node,
+      ...globals.es6
+    }
+  }
+
 };
