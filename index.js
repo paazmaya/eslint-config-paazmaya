@@ -8,7 +8,7 @@
  * Licensed under the MIT license
  */
 
-module.exports = {
+export default {
   rules: {
 
     // 7.32, no new rules
