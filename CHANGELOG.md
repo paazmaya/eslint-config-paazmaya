@@ -3,6 +3,10 @@
 This changelog covers the version history and possible upcoming changes.
 It follows the guidance from https://keepachangelog.com/en/1.0.0/.
 
+## `v9.0.1` (2022-11-25)
+
+- Did not specify `globals` as a dependency, while it is used as a dependency
+
 ## `v9.0.0` (2022-11-20)
 
 - It had been stated in `v8.0.0` that it would had been the last release. Now I wanted to make this new release to be able to use the new flat ESLint config everywhere, before possible migration away from my own config
