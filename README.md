@@ -3,7 +3,7 @@
 > Shared ESLint configuration between my projects since it is possible
 
 [![Build Status](https://app.travis-ci.com/paazmaya/eslint-config-paazmaya.svg?branch=master)](https://app.travis-ci.com/paazmaya/eslint-config-paazmaya)
-[![Node.js v14 CI](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml/badge.svg)](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml)
+[![Node.js v20 CI](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml/badge.svg)](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=paazmaya_eslint-config-paazmaya&metric=code_smells)](https://sonarcloud.io/dashboard?id=paazmaya_eslint-config-paazmaya)
 
 ## Usage
