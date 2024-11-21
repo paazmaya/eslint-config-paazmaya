@@ -35,6 +35,6 @@
     "eslint": "8.28.0"
   },
   "dependencies": {
-    "globals": "13.18.0"
+    "globals": "13.24.0"
   }
 }
