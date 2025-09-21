@@ -48,7 +48,7 @@ env: {
 
 The global variables themselves are [defined at `sindresorhus/globals`](https://github.com/sindresorhus/globals/blob/master/globals.json).
 
-Please note that the minimum supported version of [Node.js](https://nodejs.org/en/) is `14.15.0`, which is [the active Long Term Support (LTS) version](https://github.com/nodejs/Release#release-schedule).
+Please note that the minimum supported version of [Node.js](https://nodejs.org/en/) is `24.12.0`, which is [the active Long Term Support (LTS) version](https://github.com/nodejs/Release#release-schedule).
 
 ## Contributing
 

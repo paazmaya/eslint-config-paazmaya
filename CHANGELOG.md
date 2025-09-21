@@ -3,6 +3,10 @@
 This changelog covers the version history and possible upcoming changes.
 It follows the guidance from https://keepachangelog.com/en/1.0.0/.
 
+## Unreleased
+
+- Minimum supported Node.js version lifted from `18.12.0` to `24.12.0`
+
 ## `v9.0.1` (2022-11-25)
 
 - Did not specify `globals` as a dependency, while it is used as a dependency
