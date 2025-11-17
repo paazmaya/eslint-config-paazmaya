@@ -31,9 +31,7 @@ For example, when [`@babel/eslint-parser` parser](https://github.com/babel/babel
 {
   "extends": "paazmaya",
   "parser": "@babel/eslint-parser",
-  "plugins": [
-    "@babel"
-  ]
+  "plugins": ["@babel"]
 }
 ```
 
