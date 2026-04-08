@@ -1,5 +1,15 @@
 # eslint-config-paazmaya
 
+**No longer updated.**
+
+I made my own ESLint configuration initially to be able to go through each of the different configurations and their options. 
+Also to learn the new ones as they appear with new ESLint releases.
+That was very educating experience.
+
+Today I am happy with the defaults and might even use Biome or oxlint instead of ESLint...
+
+---
+
 > Shared ESLint configuration between my projects since it is possible
 
 [![Node.js CI](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml/badge.svg)](https://github.com/paazmaya/eslint-config-paazmaya/actions/workflows/linting-and-unit-testing.yml)
